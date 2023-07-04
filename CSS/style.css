@@ -1,0 +1,238 @@
+@font-face {
+    font-family: 'Astro-font';
+    src: url('../Astro-font.otf');
+    font-weight: 700;
+    font-size: xx-large;
+}
+
+@font-face {
+    font-family: 'akurapoppo';
+    src: url(../akurapoppo.ttf);
+    font-weight: 700;
+    font-size: x-large;
+}
+
+body{
+    background-color: #493e66;
+}
+header{
+    display: flex;
+    justify-content: space-between ;
+    width: 70%;
+    margin-left: auto;
+    margin-right: 120px;
+}
+
+model-viewer{
+    width: 100px;
+    height: 100px;
+}
+
+.navigation{
+    display: flex;
+    justify-content: end;
+}
+
+nav{
+    text-align: center;
+}
+
+nav ul{
+   float: right;
+}
+
+nav li{
+    display: inline-block;
+    justify-content: left;
+    margin: 0 8px;
+    line-height: 80px;
+    color: aliceblue;
+    font-family: 'Astro-font';
+    font-size: 30px;
+}
+
+
+/* FLEXBOX du debut */
+
+.flex-box-debut{
+    display: flex;
+    justify-content: center;
+}
+
+.flex-box-debut .texte{
+    width: 50%;
+}
+
+.flex-box-debut .img1{
+    width: 40%;
+}
+
+.flex-box-debut .img1 img{
+    width: 100%;
+    /*float: right; Alexandre: Il ne faut pas utiliser la propriété float, c'est pour des cas très précis*/
+}
+
+.flex-box-debut  button{
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    margin-top: 50px;
+}
+
+
+/*FIN de flexbox*/
+
+
+.claire{
+    background-color: #cec8dd;
+}
+  
+.NSC{
+    color: white;
+    font-size: 100px;
+}
+
+.EFW{
+    color: white;
+    font-size: 50px;
+}
+
+
+h1{
+    font-family:'Astro-font';
+    text-align: center;
+    color: white;
+    margin-bottom: 50px;
+}
+
+h2{
+    font-family: 'akurapoppo' ;
+    text-align: center;
+}
+
+.bouton1{
+    background-color: #493e66;
+    border-width: 1px;
+    border-color: white;
+    border-radius: 50px;
+    color: white;
+    padding-left: 4em;
+    padding-right: 4em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    font-size: 30px;
+}
+
+.texte{
+    margin-top: 150px;
+}
+
+.flex-a-propos{
+    display: flex;
+    justify-content: space-around;
+}
+
+.img3{
+    width: 55%;
+}
+
+p{
+    color: #493e66;
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.droite-a-propos{
+    width: 35%;
+}
+
+.img12{
+    width: 40%;
+}
+
+.kimono1{
+    color: #493e66;
+    margin: 0.5%;
+    margin-bottom: 20px;
+}
+.kimono2{
+    color: #493e66;
+    margin: 0.5%;
+    text-align: left;
+    margin-left: 60px;
+    padding: 0%;
+}
+
+.card{
+    margin-left: 80px;
+    margin-right: 1225px;
+}
+
+.flex-box-vente{
+   display: flex;
+}
+
+.w70{
+    width: 70% ;
+}
+
+.w30{
+    width: 30%;
+}
+
+.w100{
+    width: 100%;
+}
+
+.container {
+    position: relative; /* positionnement relatif pour le conteneur */
+  }
+  
+  .texte {
+    position: absolute; /* positionnement absolu pour le texte */
+    top: 50%; /* positionnement vertical au centre */
+    left: 50%; /* positionnement horizontal au centre */
+    color: white; /* couleur du texte */
+    font-size: 24px; /* taille du texte */
+    font-weight: bold; /* graisse du texte */
+    font-family: Astro-font;
+  }
+  .texte-2 {
+    position: absolute; /* positionnement absolu pour le texte */ /* positionnement horizontal au centre */
+    color: white; /* couleur du texte */
+    font-size: 24px; /* taille du texte */
+    font-weight: bold; /* graisse du texte */
+  }
+
+.apropos{
+    font-size: 90px;
+    margin-top: 40px;
+}
+
+.bouton2{
+     background-color: #493e66;
+    border-width: 1px;
+    border-color: white;
+    border-radius: 50px;
+    color: white;
+    padding-left: 4em;
+    padding-right: 4em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    font-size: 30px;
+}
+
+.texte3{
+    position: absolute; 
+    top: 50%; 
+    left: 50%; 
+    color: white; 
+    font-size: 50px; 
+    font-weight: bold; 
+    font-family: 'Astro-font';
+}
+
+
+
+
